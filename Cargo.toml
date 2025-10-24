@@ -1,0 +1,38 @@
+[package]
+name = "thrushc"
+description = "Quantum Compiler for Thrush Programming Language."
+edition = "2024"
+license = "GPL-3.0"
+version = "0.1.0"
+rust-version = "1.85.0"
+
+authors = [
+    "Thrush Team <thrushlangproject@gmail.com>",
+    "Stevens Benavides <foss.stevens.benavides@gmail.com>"
+]
+
+homepage = "https://github.com/thrushlang/thrushc"
+repository = "https://github.com/thrushlang/thrushc"
+build = "build.rs"
+
+[dependencies]
+llvm-sys = { path = "wrappers/llvm/17/llvm-sys", features = ["force-static"] }
+inkwell = { path = "wrappers/llvm/inkwell", features = ["llvm17-0", "llvm17-0-force-static"] }
+
+unicode_categories = "0.1.1"
+colored = "3.0.0"
+ahash = "0.8.11"
+lazy_static = "1.5.0"
+fastrand = "2.3.0"
+
+[profile.dev]
+incremental = true
+
+[profile.release]
+incremental = true
+opt-level = 'z'
+codegen-units = 1
+lto = true
+panic = "abort"
+debug = false
+strip = true
