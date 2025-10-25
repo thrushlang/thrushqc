@@ -1,8 +1,8 @@
 <img src= "https://github.com/thrushlang/.github/blob/main/assets/logos/thrushlang-logo.png" alt= "logo" style= "width: 80%; height: 80%;"></img>
 
-# The Quantum Thrush Compiler 
+# The Thrush Quantum Compiler 
 
-The **Quantum Thrush Compiler** transfers source code from Quantum Thrush ``.thrushq`` files directly into an intermediate IR that is portable to the quantum counterpart. The process includes static type analysis, code generation, target-specific optimizations, and interpretation.
+The **Thrush Quantum Compiler** transfers source code from Quantum Thrush ``.thrushq`` files directly into an intermediate IR that is portable to the quantum counterpart. The process includes static type analysis, code generation, target-specific optimizations, and interpretation.
 
 > [!IMPORTANT]  
 > This compiler is in the placeholder phase and has not yet started development.
