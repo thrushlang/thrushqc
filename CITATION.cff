@@ -12,6 +12,6 @@ repository-code: 'https://github.com/thrushlang/thrushqc'
 url: 'https://github.com/thrushlang'
 abstract: 'Quantum-based Compiler for the Thrush Programming Language (reassembles Microsoft ''qsc'' Qsharp Compiler functionality via the QIR backend using LLVM Infrastructure) (2028 expected). '
 keywords:
-  - Programming Languague
+  - Programming Language
   - Thrush Programming Language
 license: GPL-3.0
