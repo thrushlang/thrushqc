@@ -1,7 +1,7 @@
-mod backend;
+mod back_end;
 mod core;
-mod frontend;
-mod middle;
+mod front_end;
+mod middle_end;
 
 fn main() -> ! {
     todo!()
