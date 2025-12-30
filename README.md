@@ -1,4 +1,4 @@
-<img src= "https://github.com/thrushlang/.github/blob/main/assets/logos/thrushlang-logo.png" alt= "logo" style= "width: 80%; height: 80%;"></img>
+<img src= "https://github.com/thrushlang/.github/blob/main/assets/logos/thrushlang-logo-name.png" alt= "logo" style= "width: 80%; height: 80%;"></img>
 
 # The Thrush Quantum Compiler 
 
@@ -10,7 +10,7 @@ The **Thrush Quantum Compiler** transfers source code from Quantum Thrush ``.thr
 # Compiler Backends
 
 <div align= "center">
-  <img src= "https://github.com/qir-alliance/.github/blob/main/logo/alliance/white/teal_highres.png" alt= "qirlogo" style= "width: 30%; height: 30%;"></img>
+  <img src= "https://github.com/qir-alliance/.github/blob/main/logo/alliance/white/teal_highres.png" alt= "qirlogo" style= "width: 25%; height: 25%;"></img>
   <h2>Quantum Intermediate Representation (QIR)</h2>
 </div>
 
